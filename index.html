@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>News homepage</title>
+</head>
+<body>
+    <div id="main" class="container d-flex align-content-center" >
+        <div id="mobile-nav" class="container-fluid">
+            <a id="rahmobile" class="navbar-brand" href="#">W.</a>
+            <button id="dropdown" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <img src="./assets/images/icon-menu.svg" alt="">
+              </span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel"></h5>
+                <button id="close-btn">
+                    <img src="/assets/images/icon-menu-close.svg" alt="" data-bs-dismiss="offcanvas" aria-label="Close" class="btn-close">
+                </button>
+              </div>
+              <div class="offcanvas-body">
+                <ul id="nav-content" class="navbar-nav justify-content-end flex-grow-1 pe-3 px-4">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">New</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Popular</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                  </li>
+                </ul>
+           
+              </div>
+            </div>
+          </div>
+        <div class="">
+            <img id="mobile-img" src="/assets/images/image-web-3-mobile.jpg" alt="" width="450">
+        </div>
+        <div id="nav" class="" >
+            <a id="rah" href="#">W.</a>
+            <div id="link" class="">
+                <a id="myguy" href="">Home</a>
+                <a id="myguy" href="">New</a>
+                <a id="myguy" href="">Popular</a>
+                <a id="myguy" href="">Trending</a>
+                <a id="myguy" href="">Categories</a>
+            </div>
+        </div>
+      <div id="content" class="d-flex">
+            <div class="">
+                <img id="component" src="./assets/images/image-web-3-desktop.jpg" alt="" width="890">
+                <div id="about" class="d-flex">
+                    <div id="h1-div">
+                        <h1 id="heading">The Bright Future of Web 3.0?</h1>
+                    </div>
+                    <div id="p-div" class="ms-4">
+                        <p class="mb-5">
+                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                            But is it really fulfilling its promise?
+                        </p>
+                        <button id="btn" class="px-4 py-3 ">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div id="new" class="">
+                <h2 id="h2">New</h2>
+                <div id="new-content">
+                    <h3>Hydrogen VS Electric Cars</h3>
+                    <p>
+                        Will hydrogen-fueled cars ever catch up to EVs?
+                    </p>
+                    <hr>
+                    <h3>The Downsides of AI Artistry</h3>
+                    <p>
+                        What are the possible adverse effects of on-demand AI image generation?
+                    </p>
+                    <hr>
+                    <h3>Is VC Funding Drying Up?</h3>
+                    <p>
+                        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                    </p>
+                </div>
+            </div>
+      </div>
+      <div id="component" class="d-flex container updates">
+            <div class="d-flex">
+                <div class="">
+                    <img src="/assets/images/image-retro-pcs.jpg" alt="" width="100">
+                </div>
+                <div id="updates-about">
+                    <h2>01</h2>
+                    <h3>Reviving Retro PCs</h3>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="">
+                    <img src="/assets/images/image-top-laptops.jpg" alt="" width="100">
+                </div>
+                <div id="updates-about">
+                    <h2>02</h2>
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="">
+                    <img src="/assets/images/image-gaming-growth.jpg" alt="" width="100">
+                </div>
+                <div id="updates-about">
+                    <h2>03</h2>
+                    <h3>The Growth of Gaming</h3>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
